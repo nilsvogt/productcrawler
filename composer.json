@@ -1,0 +1,20 @@
+{
+    "name": "nils/ministry.2016.eucerin-crawler",
+    "authors": [
+        {
+            "name": "Nils Vogt",
+            "email": "hello.nils.vogt@googlemail.com"
+        }
+    ],
+    "require": {
+	    "symfony/dom-crawler": "^3.1",
+        "symfony/css-selector": "^3.1",
+        "fabpot/goutte": "^3.1",
+        "symfony/console": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}
